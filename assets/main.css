@@ -1,0 +1,80 @@
+html,
+body {
+    height: 100%;
+    font-family: system-ui;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    line-height: 140%;
+    color: #2a303f;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+
+}
+
+.form {
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form * {
+    outline: none;
+}
+
+.form__label {
+    margin-top: 14px;
+    margin-bottom: 2px;
+    font-family: system-ui;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form__button {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.form__input {
+    padding: 10px;
+    border: solid 1px rgb(163, 175, 187);
+}
+
+textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+.h1 {
+    padding: 10px 10px 10px 10px ;
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    padding: 10px 10px 10px 10px ;
+    display: flex;
+    justify-content: center;
+}
